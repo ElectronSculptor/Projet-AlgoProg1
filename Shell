@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo Execution de votre programme :
+echo
+
+make
+
+echo 
+echo
+
+(./Simulation)
+(./Simulation) > Resultats
+
+echo
+echo
+echo Retrouvez ces résultats dans le fichier Resultats !
+
+
+
+
