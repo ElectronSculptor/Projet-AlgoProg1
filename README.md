@@ -58,8 +58,8 @@ This will:
 
 ## Challenges Faced
 
-During development, we encountered issues when running the program. Initially, the program was developed on Windows and compiled into an `.exe`.  
-When moving to Linux (specifically on Kali Linux), we found that `gcc` did not work as expected.  
+During development, I encountered issues when running the program. Initially, the program was developed on Windows and compiled into an `.exe`.  
+When moving to Linux (specifically on Kali Linux), I found that `gcc` did not work as expected.  
 The issue was traced back to a failure to declare external variables in `init.h` using the `extern` keyword, which was necessary for proper linking across files.
 
 ## Results
